@@ -76,7 +76,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "adidas_scraper.pipelines.AdidasScraperPipeline": 300,
+    # "adidas_scraper.pipelines.AdidasScraperPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
